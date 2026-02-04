@@ -2,9 +2,9 @@ var gameData = {
     taskData: {},
     itemData: {},
 
-    coins: 0,
-    days: 365 * 14,
-    evil: 0,
+    coins: 10000000000000,
+    days: 365 * 60,
+    evil: 100000000,
     paused: false,
     timeWarpingEnabled: true,
 
@@ -1156,3 +1156,4 @@ update()
 setInterval(update, 1000 / updateSpeed)
 setInterval(saveGameData, 3000)
 setInterval(setSkillWithLowestMaxXp, 1000)
+
